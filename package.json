@@ -1,6 +1,6 @@
 {
   "name": "wiegand",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript interface for wiegand readers on GPIO",
   "main": "lib/wiegand.js",
   "scripts": {
