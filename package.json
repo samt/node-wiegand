@@ -1,0 +1,31 @@
+{
+  "name": "wiegand",
+  "version": "0.0.1",
+  "description": "JavaScript interface for wiegand readers on GPIO",
+  "main": "lib/wiegand.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samt/node-wiegand.git"
+  },
+  "keywords": [
+    "rfid",
+    "wiegand"
+  ],
+  "author": "Sam Thompson <git@samt.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samt/node-wiegand/issues"
+  },
+  "homepage": "https://github.com/samt/node-wiegand#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "epoll": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  }
+}
