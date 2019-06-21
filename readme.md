@@ -41,8 +41,8 @@ const w = wiegand();
 
 w.begin({ d0: 17, d1: 18});
 
-w.on('data', (length, data) => {
-    console.log('Got', length, 'bits from wiegand with data:' data);
+w.on('data', (data) => {
+    console.log('Got', data.length, 'bits from wiegand with data:', data);
 });
 
 w.on('keypad', (num) => {
